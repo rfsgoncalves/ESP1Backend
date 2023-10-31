@@ -1,0 +1,31 @@
+{
+  "name": "esp1backend",
+  "version": "1.0.0",
+  "description": "Implementação backend do projeto camadas de modelo e persistência",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfsgoncalves/ESP1Backend.git"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "javascript",
+    "desenvolvimento"
+  ],
+  "author": "Renato Gonçalves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rfsgoncalves/ESP1Backend/issues"
+  },
+  "homepage": "https://github.com/rfsgoncalves/ESP1Backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.6.2"
+  }
+}
