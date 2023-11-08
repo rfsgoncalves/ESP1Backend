@@ -1,4 +1,4 @@
-import Usuario from "./modelo/Usuario.js";
+import Usuario from '../modelo/usuario.js';
 //A classe UsuarioCtrl servirá como camada de controle entre a aplicação
 //e a Internet
 //Ela traduz http em regras internas da aplicação (negócio ou solução)
