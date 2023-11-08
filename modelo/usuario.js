@@ -125,6 +125,7 @@ export default class Usuario{
 
     async consultar(){
         const usuDAO = new UsuarioDAO();
+        //está retornando uma lista de usuários
         return await usuDAO.consultar();
     };
 }
